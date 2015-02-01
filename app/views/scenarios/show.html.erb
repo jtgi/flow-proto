@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Start node:</strong>
+  <%= @scenario.start_node_id %>
+</p>
+
+<p>
+  <strong>Finish node:</strong>
+  <%= @scenario.finish_node_id %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @scenario.title %>
+</p>
+
+<%= link_to 'Edit', edit_scenario_path(@scenario) %> |
+<%= link_to 'Back', scenarios_path %>

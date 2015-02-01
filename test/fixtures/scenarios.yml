@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_node_id: 1
+  finish_node_id: 1
+  title: MyString
+
+two:
+  start_node_id: 1
+  finish_node_id: 1
+  title: MyString
